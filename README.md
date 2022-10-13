@@ -1,1 +1,1 @@
-# At-var2-mutant
+# Arabidopsis-var2-mutant
