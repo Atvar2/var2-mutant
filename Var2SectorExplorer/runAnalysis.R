@@ -355,7 +355,7 @@ for (i in celltype) {
   print(unique(subdata$Celltype))
   Idents(subdata)<-"Groups"
   cellNumber <- length(colnames(subdata))
-  marker<-FindMarkers(subdata,ident.1="INH",idents.2="Ctrl", assay="RNA", only.pos=F, min.pct=0.1,logfc.threshold=0.25)
+  marker<-FindMarkers(subdata,ident.1="mutant",idents.2="WT", assay="RNA", only.pos=F, min.pct=0.1,logfc.threshold=0.25)
   marker<- marker %>% mutate(Difference = pct.1-pct.2)
   submarker = data.frame(gene=row.names(marker),Difference=marker$Difference, logFC=marker$avg_log2FC,p=marker$p_val,adj.P=marker$p_val_adj,Celltype=i,cellNumber=cellNumber,State=ifelse(marker$p_val_adj<0.05,ifelse(marker$avg_log2FC>0.25,"Up",ifelse(marker$avg_log2FC< -0.25,"Down","No")),"No"))
   
@@ -470,6 +470,7 @@ cds <- estimateDispersions(cds)
 cds <- reduceDimension(cds, max_components = 2, method = 'DDRTree')
 cds <- orderCells(cds)
 save(cds,file="4-ClusterMarkersGenes.rData")
+
 
 
 
