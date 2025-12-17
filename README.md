@@ -10,7 +10,7 @@ Collection of R codes or horse perl scripts to perfrom analysis and data visuali
 
 ## Citations
 If you used the codes or reference part of codes for your analysis, please kindly cited:
-Cai et al. (2025) Exploring leaf variegation in Arabidopsis yellow variegated2 by single-cell RNA sequencing
+Chai et al. (2025) Exploring leaf variegation in Arabidopsis yellow variegated2 by single-cell RNA sequencing
 
 ## Dependece packages
 Following are a list of R packages that are used by the analysis pipeline. Before implement the codes, please comfirmed the packages have been installed on your R platform.
