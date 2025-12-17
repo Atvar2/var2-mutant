@@ -10,13 +10,12 @@ Collection of R codes or horse perl scripts to perfrom analysis and data visuali
 
 ## Citations
 If you used the codes or reference part of codes for your analysis, please kindly cited:
-_Chai et al. (2022) Exploring the probabilistic fates of chloroplasts in Arabidopsis by single-cell RNA sequencing
+Cai et al. (2025) Exploring leaf variegation in Arabidopsis yellow variegated2 by single-cell RNA sequencing
 
 ## Dependece packages
 Following are a list of R packages that are used by the analysis pipeline. Before implement the codes, please comfirmed the packages have been installed on your R platform.
 
 - Seaurat version 4.1.0
-- DoubletFinder version 2.02
 - clusterProfiler version 4.0.0
 - monocle version: 2.20.0
 - ggplot2 version: 3.3.5
