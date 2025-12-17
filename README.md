@@ -5,7 +5,6 @@ Collection of R codes or horse perl scripts to perfrom analysis and data visuali
 |         |                                                                  |
 | ------- | ---------------------------------------------------------------- |
 | Authors | Junhui Chen ([chenjunhui](https://github.com/Atvar2))         |
-| Email   | <chenjhbio@163.com>                                           |
 | License | [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)               |
 
 
